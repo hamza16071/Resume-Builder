@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --accent: #0ea5a4; --accent2: #7c3aed; }
+body { @apply bg-gradient-to-br from-slate-50 to-sky-50 min-h-screen font-sans; }
+.container { @apply max-w-5xl mx-auto p-6; }
+.card { @apply bg-white p-6 rounded-2xl shadow-lg; }
+.btn { @apply px-4 py-2 rounded-lg font-semibold; }
+.preview { @apply p-4 border rounded bg-gray-50; }
